@@ -1,9 +1,11 @@
 import type { NextPage } from 'next';
 
+import BaseTemplate from '@/components/template/base/BaseTemplate';
+
 const Home: NextPage = () => {
   return (
-    <div className='flex min-h-screen flex-col items-center justify-center py-2'>
-      hello world
+    <div>
+      <BaseTemplate sampleTextProps='base template' />
     </div>
   );
 };
